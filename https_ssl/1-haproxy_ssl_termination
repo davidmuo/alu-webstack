@@ -42,6 +42,6 @@ backend cryptotechcoder
 
 frontend http
     bind *:80
-    bind *:443 ssl crt /etc/letsencrypt/live/www.deetechwiz.tech/haproxy.pem
+    bind *:443 ssl crt /etc/letsencrypt/live/www.dav3.tech/haproxy.pem
     mode http
-    default_backend cryptotechcoder
+    default_backend dav3
