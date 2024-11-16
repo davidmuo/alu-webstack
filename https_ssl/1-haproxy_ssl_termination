@@ -35,7 +35,7 @@ defaults
         errorfile 503 /etc/haproxy/errors/503.http
         errorfile 504 /etc/haproxy/errors/504.http
 
-backend cryptotechcoder
+backend dav3
     balance roundrobin
     server 6279-web-01 54.92.215.220 check
     server 6279-web-02 98.81.218.27 check
